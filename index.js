@@ -5,12 +5,23 @@ const { exec } = require("child_process");
 
 const volumePath = '/data';
 const dbFile = path.join(volumePath, 'db.json');
-const defaultDbFile = path.join(__dirname, 'db.json');
+const defaultDbFile = path.join(process.cwd(), 'db.json');
 
-// Copia db.json inicial al volumen si no existe
-if (!fs.existsSync(dbFile) && fs.existsSync(defaultDbFile)) {
-  fs.copyFileSync(defaultDbFile, dbFile);
-  console.log('Copied default db.json to volume');
+// Si el volumen no tiene db.json, créalo
+if (!fs.existsSync(dbFile)) {
+  if (fs.existsSync(defaultDbFile)) {
+    fs.copyFileSync(defaultDbFile, dbFile);
+    console.log('Copied default db.json to volume');
+  } else {
+    fs.writeFileSync(dbFile, JSON.stringify({
+      participantes: [],
+      tutors: [],
+      clases: [],
+      citas: [],
+      resenas: []
+    }, null, 2));
+    console.log('Created new db.json in volume');
+  }
 }
 
 const server = jsonServer.create();
