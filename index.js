@@ -5,7 +5,7 @@ const { exec } = require("child_process");
 
 const volumePath = '/data';
 const dbFile = path.join(volumePath, 'db.json');
-const defaultDbFile = path.join(process.cwd(), 'db.json');
+const defaultDbFile = path.join(process.cwd(), 'data', 'db.json')
 
 // Si el volumen no tiene db.json, créalo
 if (!fs.existsSync(dbFile)) {
