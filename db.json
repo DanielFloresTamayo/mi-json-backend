@@ -86,6 +86,86 @@
 ],
 
 
-"resenas":[],
-"citas":[]
+"resenas":[
+    {
+      "citaId": 1,
+      "tutorId": 2,
+      "participanteId": 2,
+      "comentario": "El tutor explica de una manera sencilla y paciente. Me gustó que no se apura y responde todas las dudas sin molestarle repetir las cosas. Gracias a sus clases entendí mejor temas que antes me parecían complicados.",
+      "rating": 5,
+      "fecha": "2026-01-13T05:07:52.664Z",
+      "id": 1
+    },
+    {
+      "citaId": 2,
+      "tutorId": 2,
+      "participanteId": 2,
+      "comentario": "Es un tutor muy amable y se nota que se esfuerza por explicar bien. Usa ejemplos fáciles y eso ayuda bastante a comprender. Me sentí cómodo haciendo preguntas y no tuve miedo de equivocarme.",
+      "rating": 4,
+      "fecha": "2026-01-13T05:08:11.721Z",
+      "id": 2
+    },
+    {
+      "citaId": 3,
+      "tutorId": 1,
+      "participanteId": 2,
+      "comentario": "Las clases son claras y bien organizadas. Me gustó que explica con palabras simples y va paso a paso. Me ayudó mucho para mejorar en mis tareas.",
+      "rating": 5,
+      "fecha": "2026-01-13T05:08:45.306Z",
+      "id": 3
+    },
+    {
+      "citaId": 4,
+      "tutorId": 1,
+      "participanteId": 1,
+      "comentario": "El tutor es amable, pero a veces tarda un poco en explicar algunos temas y en ciertos momentos se queda corto en detalles. Aun así, ayuda, pero podría mejorar explicando con más profundidad algunos contenidos.",
+      "rating": 3,
+      "fecha": "2026-01-13T05:10:54.286Z",
+      "id": 4
+    }
+],
+ 
+"citas":[
+
+{
+      "tutorId": 2,
+      "participanteId": 2,
+      "claseId": 9,
+      "fechaSolicitud": "2026-01-13T04:46:03.926Z",
+      "estado": "completada",
+      "mensaje": "",
+      "tieneResena": true,
+      "id": 1
+    },
+    {
+      "tutorId": 2,
+      "participanteId": 2,
+      "claseId": 10,
+      "fechaSolicitud": "2026-01-13T04:46:28.144Z",
+      "estado": "completada",
+      "mensaje": "",
+      "tieneResena": true,
+      "id": 2
+    },
+    {
+      "tutorId": 1,
+      "participanteId": 2,
+      "claseId": 11,
+      "fechaSolicitud": "2026-01-13T04:46:47.264Z",
+      "estado": "completada",
+      "mensaje": "",
+      "tieneResena": true,
+      "id": 3
+    },
+    {
+      "tutorId": 1,
+      "participanteId": 1,
+      "claseId": 12,
+      "fechaSolicitud": "2026-01-13T04:58:29.738Z",
+      "estado": "completada",
+      "mensaje": "",
+      "tieneResena": true,
+      "id": 4
+    }
+]
 }
