@@ -1,5 +1,28 @@
 {
-"tutors":[],
+"tutors":[
+    {
+      "nombres": "Genaro Daniel",
+      "apellidos": "Flores Tamayo",
+      "correoInstitucional": "genaro.flores@epn.edu.ec",
+      "nivelAcademico": "Quinto semestre Tecnología desarrollo de software ",
+      "fechaNacimiento": "1996-12-29",
+      "contrasena": "$2b$10$vlk2KYb3eUPInfFn/R/PQujuohljh1TcjeSxmHib98COfjjMcS0.W",
+      "clases": [],
+      "resenas": [],
+      "id": 1
+    },
+    {
+      "nombres": "Luis Fernando",
+      "apellidos": "Pilamunga Sanchez",
+      "correoInstitucional": "luis.pilamunga@epn.edu.ec",
+      "nivelAcademico": "Cuarto semestre Electromecánica ",
+      "fechaNacimiento": "1999-04-13",
+      "contrasena": "$2b$10$a6eL23s1KptsfWJ6GaPfL.vm1.0y7f05K38hewORR79CTTOUxZhra",
+      "clases": [],
+      "resenas": [],
+      "id": 2
+    }
+  ],
 
   "participantes": [
     {
