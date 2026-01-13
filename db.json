@@ -49,7 +49,43 @@
     }
   ],
 
-"clases":[],
+"clases":[
+
+{
+      "tutorId": 2,
+      "titulo": "Introducción a los circuitos eléctricos básicos",
+      "materia": "Electrónica",
+      "descripcion": "En esta clase el participante aprenderá los conceptos fundamentales de la electricidad, como el voltaje, la corriente y la resistencia, aplicados a circuitos simples. Se trabajará con ejemplos prácticos que permiten comprender cómo se conectan focos, interruptores y baterías, facilitando la interpretación de esquemas básicos.",
+      "fechaPublicacion": "2026-01-13",
+      "id": 9
+    },
+    {
+      "tutorId": 2,
+      "titulo": "Uso de componentes electrónicos fundamentales",
+      "materia": "Electrónica",
+      "descripcion": "Esta clase está diseñada para que el participante conozca los componentes electrónicos más comunes, como resistencias, capacitores y LEDs. Se explicará la función de cada uno y cómo se utilizan dentro de un circuito sencillo. A través de ejemplos claros, el participante aprenderá a identificar estos componentes y a comprender su importancia en dispositivos electrónicos que se usan cotidianamente.",
+      "fechaPublicacion": "2026-01-13",
+      "id": 10
+    },
+    {
+      "tutorId": 1,
+      "titulo": "Aprende a pensar como programador",
+      "materia": "Programación",
+      "descripcion": "En esta clase se enseñan las bases para empezar a entender cómo funciona la programación. Se explicará de forma sencilla qué es una variable, cómo usar condicionales y para qué sirven los ciclos. Se trabajará con ejemplos simples para que el participante pueda practicar y perder el miedo a programar. El objetivo es que el alumno aprenda a razonar paso a paso.",
+      "fechaPublicacion": "2026-01-13",
+      "id": 11
+    },
+    {
+      "tutorId": 1,
+      "titulo": "Aprende a usar mejor la computadora para estudiar",
+      "materia": "Otros",
+      "descripcion": "Esta clase ayuda al participante a aprender a organizar archivos, crear carpetas, usar programas básicos y aprovechar mejor la computadora para tareas escolares. Se enseñará cómo guardar trabajos, enviar archivos, usar documentos y cuidar la información. Es ideal para estudiantes que quieren mejorar su manejo del computador y sentirse más seguros al usarlo.",
+      "fechaPublicacion": "2026-01-13",
+      "id": 12
+    }
+],
+
+
 "resenas":[],
 "citas":[]
 }
